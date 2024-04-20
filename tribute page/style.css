@@ -1,0 +1,36 @@
+body{
+    background-color:#DAF7A6;
+    margin:5%;
+    font-family: Times New Roman;
+}
+#title{
+    text-shadow:5px 5px 10px white;
+    font-size:8vh;
+    font-family: Times New Roman;
+    text-align:center;
+}
+#img{
+    width:100%;
+    display: inline-block;
+    text-align:center;
+}
+#caption{
+    font-size:1vw;
+    font-family: Times New Roman;
+    text-align:center;
+}
+#title-prophet{
+ text-shadow:5px 5px 10px white;
+ font-size: 4vh;
+ text-align:center;
+}
+#tribute-data{
+    background-color: #B9EE5B;
+    padding:2%;
+    margin:1%;
+    margin-top: 50px;
+}
+#ending{
+    text-align:center;
+    margin-top:50px;
+}
