@@ -1,0 +1,55 @@
+body{
+    background-color:#93C572;
+    font-family:Times New Roman;
+    text-align: center;
+}
+body h1{
+    font-size:35px;
+    color: black;
+}
+form{
+    background-color:#FFFFFF;
+    margin:10px auto;
+    padding:30px 20px;
+    max-width:50%;
+    box-shadow: 2px 5px 30px #F3E5AB;
+}
+.form-control{
+    text-align:left;
+    margin-bottom:25px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+ #name,#email,
+.form-control textarea{
+    border:3px solid black;
+    border-radius:3px;
+    padding:10px;
+    display: block;
+    width: 95%;
+    font-family: Times New Roman;
+}
+.form-control input[type=radio],
+.form-control input[type=checkbox]{
+    display: inline;
+    width: auto;
+}
+button{
+    background-color:#FFFF8F;
+    border:2px solid black;
+    border-radius:3px;
+    font-family:Times New Roman;
+    font-size:25px;
+    width:15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#summery{
+font-size:20px;
+}
+#auther{
+font-size:26px;
+}

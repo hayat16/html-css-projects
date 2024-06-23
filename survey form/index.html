@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>survey form</title>
+</head>
+<body>
+<h1>Survey on Research Scope in Bangladesh</h1>
+<form id="form">
+    <div class="form-control">
+        <label for="name" id="label-name">1. Name--</label>
+        <input type="text" id="name" placeholder="Enter Your Full Name">
+    </div>
+    <div class="form-control">
+        <label for="email" id="label-email">2. Email--</label>
+        <input type="text" id="email" placeholder="Enter Your Email ">
+    </div>
+    <div class="form-control">
+        <label id="label-age">3. Age--</label>
+        <labeL for="recommend-1">
+            <input type="radio" id="recommend-1" name="recommend">Under 18</input>
+        </labeL>
+        <labeL for="recommend-2">
+            <input type="radio" id="recommend-2" name="recommend">18-25</input>
+        </labeL>
+        <labeL for="recommend-3">
+            <input type="radio" id="recommend-3" name="recommend">26-35</input>
+        </labeL>
+        <labeL for="recommend-4">
+            <input type="radio" id="recommend-4" name="recommend">36-45</input>
+        </labeL>
+        <labeL for="recommend-5">
+            <input type="radio" id="recommend-5" name="recommend">46 and above</input>
+        </labeL>
+    </div>
+    <div class="form-control">
+        <label id="label-gender">4. Gender--</label>
+        <label for="gender-1"><input type="radio" id="gender-1" name="mygender">Male</label>
+        <label for="gender-2"><input type="radio" id="gender-2" name="mygender">Female</label>
+        <label for="gender-3"><input type="radio" id="gender-3" name="mygender">other</label>
+    </div>
+    <div class="form-control">
+        <label id="educational-background">5. Educational Background--</label>
+        <label for="educational-background-1"><input type="radio" id="educational-background-1" name="myedu">High School</label>
+        <label for="educational-background-2"><input type="radio" id="educational-background-2" name="myedu">Bachelor's
+            Degree</label>
+        <label for="educational-background-3"><input type="radio" id="educational-background-3" name="myedu">Master's
+            Degree</label>
+        <label for="educational-background-4"><input type="radio" id="educational-background-4" name="myedu">PhD or
+            higher</label>
+        <label for="educational-background-5"><input type="radio" id="educational-background-5" name="myedu">Other
+            (please specify):<input type="text"></label>
+    </div>
+    <div class="form-control">
+        <label id="awareness">6. Are you aware of the current research activities happening in Bangladesh?</label>
+        <label for="aware-1"><input type="radio" id="aware-1" name="aware">Yes</label>
+        <label for="aware-2"><input type="radio" id="aware-2" name="aware">No</label>
+    </div>
+    <div class="form-control">
+        <label id="participation">7. Have you participated in any research projects or studies in Bangladesh?</label>
+        <label for="participation-1"><input type="radio" id="participation-1" name="aware">Yes</label>
+        <label for="participation-2"><input type="radio" id="participation-2" name="aware">No</label>
+    </div>
+    <div class="form-control">
+        <label id="perception">8. How important do you think research is for the development of Bangladesh?</label>
+        <label for="perception-1"><input type="radio" id="perception-1" name="percept">Very important</label>
+        <label for="perception-2"><input type="radio" id="perception-2" name="percept">Important</label>
+        <label for="perception-3"><input type="radio" id="perception-3" name="percept">Neutral</label>
+        <label for="perception-4"><input type="radio" id="perception-4" name="percept">Not very important</label>
+        <label for="perception-5"><input type="radio" id="perception-5" name="percept">Not important at all</label>
+
+    </div>
+    <div class="form-control">
+        <label id="sectors">9.  In which areas or sectors do you think research should focus more in Bangladesh?
+            <small>(Select all that apply)</small></label>
+        <label for="sectors-1"><input type="checkbox" id="sectors-1" name="research-sectors">Agriculture</label>
+        <label for="sectors-2"><input type="checkbox" id="sectors-2" name="research-sectors">Healthcare</label>
+        <label for="sectors-3"><input type="checkbox" id="sectors-3" name="research-sectors">Education</label>
+        <label for="sectors-4"><input type="checkbox" id="sectors-4" name="research-sectors">Technology and
+            Innovation</label>
+        <label for="sectors-5"><input type="checkbox" id="sectors-5" name="research-sectors">Environment</label>
+        <label for="sectors-6"><input type="checkbox" id="sectors-6" name="research-sectors">Social Sciences</label>
+        <label for="sectors-7"><input type="checkbox" id="sectors-7" name="research-sectors">Other (please
+            specify):<input type="text"></label>
+    </div>
+    <div class="form-control">
+        <label id="challenges">10.  What do you perceive as the major challenges faced by researchers in Bangladesh today?
+            <small>(Select all that apply)</small></label>
+        <label for="challenges-1"><input type="checkbox" id="challenges-1" name="research-challenges">Lack of
+            funding</label>
+        <label for="challenges-2"><input type="checkbox" id="challenges-2" name="research-challenges">Limited access to
+            research facilities and equipment</label>
+        <label for="challenges-3"><input type="checkbox" id="challenges-3" name="research-challenges">Insufficient
+            government support</label>
+        <label for="challenges-4"><input type="checkbox" id="challenges-4" name="research-challenges">Lack of
+            collaboration opportunities with international researchers</label>
+        <label for="challenges-5"><input type="checkbox" id="challenges-5" name="research-challenges">Limited awareness
+            and appreciation of research</label>
+        <label for="challenges-6"><input type="checkbox" id="challenges-6" name="research-challenges">Other (please
+            specify):<input type="text"></label>
+    </div>
+    <div class="form-control">
+        <label id="opportunities">11.  Are there any specific areas or sectors in Bangladesh where you believe research
+            could make a significant impact?
+            <small>(Select all that apply)</small></label>
+        <label for="opportunities-1"><input type="checkbox" id="opportunities-1" name="research-opportunities">Healthcare</label>
+        <label for="opportunities-2"><input type="checkbox" id="opportunities-2" name="research-opportunities">Agriculture
+            and food security</label>
+        <label for="opportunities-3"><input type="checkbox" id="opportunities-3" name="research-opportunities">Climate
+            change and environment</label>
+        <label for="opportunities-4"><input type="checkbox" id="opportunities-4" name="research-opportunities">Education
+            and literacy</label>
+        <label for="opportunities-5"><input type="checkbox" id="opportunities-5" name="research-opportunities">Poverty
+            alleviation and economic development</label>
+        <label for="opportunities-6"><input type="checkbox" id="opportunities-6" name="research-opportunities">Other
+            (please specify):<input type="text"></label>
+    </div>
+    <div class="form-control">
+        <label id="facilities">12.  How would you rate the availability of research facilities (e.g., labs, equipment) in
+            Bangladesh?</label>
+        <label for="facilities-1"><input type="radio" id="facilities-1" name="rate-facilities">Excellent</label>
+        <label for="facilities-2"><input type="radio" id="facilities-2" name="rate-facilities">Good</label>
+        <label for="facilities-3"><input type="radio" id="facilities-3" name="rate-facilities">Average</label>
+        <label for="facilities-4"><input type="radio" id="facilities-4" name="rate-facilities">Poor</label>
+        <label for="facilities-5"><input type="radio" id="facilities-5" name="rate-facilities">Very poor</label>
+
+    </div>
+    <div class="form-control">
+        <label id="support">13.  Do you believe there is adequate government support for research initiatives in
+            Bangladesh?</label>
+        <label for="support-1"><input type="radio" id="support-1" name="govt-support">Yes</label>
+        <label for="support-2"><input type="radio" id="support-2" name="govt-support">No</label>
+        <label for="support-3"><input type="radio" id="support-3" name="govt-support">Not sure</label>
+    </div>
+    <div class="form-control">
+        <label id="collaboration">14. Have you collaborated with international researchers or institutions for research
+            projects?</label>
+        <label for="collaboration-1"><input type="radio" id="collaboration-1" name="my-collaboration">Yes</label>
+        <label for="collaboration-2"><input type="radio" id="collaboration-2" name="my-collaboration">No</label>
+
+    </div>
+    <div class="form-control">
+        <label id="funding">15.  How would you rate the availability of funding opportunities for research in
+            Bangladesh?</label>
+        <label for="funding-1"><input type="radio" id="funding-1" name="rate-funding">Ample</label>
+        <label for="funding-2"><input type="radio" id="funding-2" name="rate-funding">Adequate</label>
+        <label for="funding-3"><input type="radio" id="funding-3" name="rate-funding">Limited</label>
+        <label for="funding-4"><input type="radio" id="funding-4" name="rate-funding">Very limited</label>
+
+
+    </div>
+    <div class="form-control">
+        <label id="future-outlook">16.  What improvements or changes would you like to see in the research landscape of
+            Bangladesh in the next 5-10 years?
+            <small>(Select all that apply)</small></label>
+        <label for="future-outlook-1"><input type="checkbox" id="future-outlook-1" name="rate-outlook">Increased funding
+            opportunities</label>
+        <label for="future-outlook-2"><input type="checkbox" id="future-outlook-2" name="rate-outlook">Better research
+            infrastructure and facilities</label>
+        <label for="future-outlook-3"><input type="checkbox" id="future-outlook-3" name="rate-outlook">Enhanced
+            collaboration with international researchers</label>
+        <label for="future-outlook-4"><input type="checkbox" id="future-outlook-4" name="rate-outlook">Improved
+            government policies and support</label>
+        <label for="future-outlook-5"><input type="checkbox" id="future-outlook-5" name="rate-outlook">Greater public
+            awareness and appreciation of research</label>
+        <label for="future-outlook-6"><input type="checkbox" id="future-outlook-6" name="rate-outlook">others</label>
+    </div>
+    <div class="form-control">
+        <label id="potential">17.  Do you believe that research in Bangladesh has the potential to influence global
+            knowledge and innovation?</label>
+        <label for="potential-1"><input type="radio" id="potential-1" name="bd-potential">Yes</label>
+        <label for="potential-2"><input type="radio" id="potential-2" name="bd-potential">No</label>
+        <label for="potential-3"><input type="radio" id="potential-3" name="bd-potential">Not sure</label>
+    </div>
+    <div class="form-control">
+        <label for="comments">18. Any comments or suggestions--</label>
+        <textarea id="comments" name="my-comments" placeholder="Enter your comment here">
+        </textarea>
+    </div>
+    <button type="submit" value="submit">Submit</button>
+</form>
+<footer>
+    <p id="summery">This multiple-choice survey form aims to gather structured feedback on various aspects related to
+        the scope of research in Bangladesh, including awareness, participation, challenges, opportunities,
+        infrastructure, funding, and future outlook. </p>
+    <p id="auther">[ <small>Developed by <a href="https://github.com/hayat16">@Mysha Sarin</a></small> ]</p>
+</footer>
+</body>
+</html>
